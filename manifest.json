@@ -1,25 +1,20 @@
 {
-  "name": "君哥聊編程",
-  "short_name": "君哥",
-  "start_url": "index.html",
-  "display": "standalone",
-  "background_color": "#2196f3",
-  "description": "君哥聊編程主页",
-  "theme_color": "blue",
+  "name": "软考君",
+  "short_name": "软考君",
   "icons": [
     {
-      "src": "./img/logo.png",
-      "sizes": "144x144",
+      "src": "/hero_write.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/hero_write.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "related_applications": [
-    {
-      "platform": "web"
-    },
-    {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
-    }
-  ]
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#42b983"
 }
